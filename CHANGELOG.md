@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+- Fix special character escaping in generated documentation so that `&`, `<`
+  and `>` do not break the generated Rust docs while preserving HTML tags.
 - Add `#[used]` to the generated interrupt vector table statics so they are not
   dropped by the linker with lto
 - Improve documentation for RISC-V settings file
