@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+- Add WCH CH32V30x RISC-V chip to the regression test suite.
 - Add `#[used]` to the generated interrupt vector table statics so they are not
   dropped by the linker with lto
 - Improve documentation for RISC-V settings file
